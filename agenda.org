@@ -1,0 +1,5 @@
+hikari
+
+* server
+	- figure out the data structures
+* client

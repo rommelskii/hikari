@@ -1,0 +1,4 @@
+-> user (username (unique key), password)
+	-> message (playlist id as unique key; uses username as foreign key)
+		-> playlist (playlist id as unique key)
+			-> array of song objects (just get this from a lookup table that you can build)
